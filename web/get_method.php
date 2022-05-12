@@ -2,7 +2,7 @@
 <html lang="ja">
     <head>
     </head>
-        <body>
+    <body>
         <h1>GETメソッドによるパラメータ渡し</h1>
         <?php
             $arg1 = $_GET['arg1'];
@@ -11,5 +11,5 @@
             echo $result;
         ?>
         <p><a href = "../index.html">前に戻る</p>
-        </body>
+    </body>
 </html>
