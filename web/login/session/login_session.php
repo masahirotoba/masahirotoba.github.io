@@ -1,6 +1,6 @@
 <?php
-    $user = $_POST['user'];
-    $pass = $_POST['pass'];
+    $user = $_SESSION['user'];
+    $pass = $_SESSION['pass'];
     if(strcmp($user,'user') == 0 && strcmp($pass, 'pass') == 0){
         session_start();
         header('Location: success_session.php');
