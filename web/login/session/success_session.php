@@ -1,11 +1,8 @@
 <?php
-    header('Cache-Control: no-cache');
-    $user = $_COOKIE['user'];
-    $pass = $_COOKIE['pass'];
-    if(strcmp($user, 'user') != 0 || strcmp($pass, 'pass') != 0) {
-        setcookie("user", "", time() - 3600);
-        setcookie("pass", "", time() - 3600);
-        header('Location: failed_.html');
+    session_start();
+    $user = $_SESSION['user'];
+    if(strcmp($user, '') == 0) {
+        header('Location: failed_session.html');
         exit();
     }
 ?>
