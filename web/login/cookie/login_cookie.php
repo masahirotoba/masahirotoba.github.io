@@ -6,6 +6,6 @@
         setcookie("pass", $pass);
         header('Location: success_cookie.php');
     } else {
-        header('Location: failed_cookie.php');
+        header('Location: failed_cookie.html');
     }
 ?>
