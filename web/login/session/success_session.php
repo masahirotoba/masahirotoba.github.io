@@ -1,8 +1,9 @@
 <?php
     session_start();
     $user = $_SESSION['user'];
-    if(strcmp($user, '') == 0) {
-        header('Location: failed_session.html');
+    $pass = $_SESSION['pass'];
+    if(strcmp($user, 'user') != 0 || strcmp($pass, 'pass') != 0) {
+        header('Location: failed_cookie.html');
         exit();
     }
 ?>
