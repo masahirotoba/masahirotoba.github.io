@@ -4,8 +4,8 @@
     if(strcmp($user,'user') == 0 && strcmp($pass, 'pass') == 0){
         setcookie("user", $user);
         setcookie("pass", $pass);
-        header('Location: success.html');
+        header('Location: success_cookie.php');
     } else {
-        header('Location: failed.html');
+        header('Location: failed_cookie.php');
     }
 ?>
