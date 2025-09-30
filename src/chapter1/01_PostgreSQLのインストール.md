@@ -1,10 +1,10 @@
-それでは早速、PostgreSQLのインストール方法をご紹介します。
+下記の手順に従って、PostgreSQLをインストールしましょう。
 
 # インストーラのダウンロード
 
-まずはEDB社の公式サイトにアクセスします（EDB社とは、PostgreSQLのエンタープライズ向け拡張・サポートを提供する会社です）。
+まずはEDB社の公式サイトから、インストーラをダウンロードします（EDB社とは、PostgreSQLのエンタープライズ向け拡張・サポートを提供する会社です）。
 
-https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+[https://www.enterprisedb.com/downloads/postgres-postgresql-downloads](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
 
 今回は、Windows 11にバージョン17をインストールします。「Windows x86-64」と「17.x」が交わったところの矢印を選択してください。
 
