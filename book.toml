@@ -1,7 +1,7 @@
 [book]
-authors = ["Michael Currin"]
-language = "en"
+authors = ["Masahiro Toba"]
+language = "ja"
 multilingual = false
 src = "src"
-title = "mdBook Quickstart"
-description = "Demo site for mdBook Quickstart repo"
+title = "はじめてのSQL"
+description = "SQLの基本的な使い方を解説したコンテンツです"
