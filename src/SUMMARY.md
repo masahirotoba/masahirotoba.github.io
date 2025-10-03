@@ -5,7 +5,6 @@
     - [環境変数の設定](chapter1/02_環境変数の設定.md)
     - [PostgreSQLへの接続、実行](chapter1/03_PostgreSQLへの接続、実行.md)
     - [学習用データベースの作成](chapter1/04_学習用データベースの作成.md)
-    - [データベースの接続（ログイン）](chapter1/05_学習用データベースの接続（ログイン）.md)
 - [データベースとSQL](chapter2/README.md)
     - [データベースとは](chapter2/01_データベースとは.md)
     - [データベースの構成](chapter2/02_データベースの構成.md)
