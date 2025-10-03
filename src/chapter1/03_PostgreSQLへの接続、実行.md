@@ -46,6 +46,12 @@ SELECT 1;
 
 入力し終わったら、[Enter] キーを押してください。コマンドが正しく実行されると、画面には次のような結果が表示されます。
 
+```
+ ?column?
+----------
+        1
+```
+
 <div style="text-align: center;">
 <img src="images/03/04.png" alt="実行結果" width="250">
 </div>
